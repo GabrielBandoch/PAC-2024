@@ -3,7 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
 import cors from 'cors';
-import { router } from './Routes/routes.js'; // Corrigido
+import { router } from './routes/routes.js'; // Corrija a importação do router
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -52,8 +52,45 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'Páginas', 'paginaInicial.html'));
 });
 
+app.use(express.static(path.join(__dirname, 'Páginas')));
+
 // Usar as rotas definidas em router
 app.use("/", router);
+
+// Define uma rota para servir a página de login
+app.get('/login', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/login.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/admin', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/admin.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/sobre', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/sobre.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/ler', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/ler.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/fund1', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/enfundamental.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/fund2', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/enfundamental2.html');
+});
+
+// Define uma rota para servir a página de login
+app.get('/medio', (req, res) => {
+  res.sendFile(__dirname + '/Páginas/enmedio.html');
+});
 
 app.listen(3000, () => {
   console.log("Servidor rodando na porta 3000");

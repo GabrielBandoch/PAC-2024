@@ -18,3 +18,4 @@ var toolbarOptions = [
     },
     theme: 'snow'
   });
+

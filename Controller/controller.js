@@ -1,4 +1,4 @@
-import connect from '../config/db.js';
+import connect from '../config/db,js';
 
 let post = {};
 const con = await connect();
@@ -29,3 +29,4 @@ post.delete = async (id) => {
 };
 
 export { post };
+

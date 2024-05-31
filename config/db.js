@@ -1,5 +1,4 @@
-import mysql2 from 'mysql2/promise';
-
+import mysql2 from "mysql2/promise"
 async function connect (){
     if(global.connection && global.connection.state !== 'disconnect')
         return global.connection

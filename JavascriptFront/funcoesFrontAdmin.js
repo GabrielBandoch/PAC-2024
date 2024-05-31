@@ -32,3 +32,4 @@ document.addEventListener("click", function(event) {
 });
 
 document.getElementById("myDropdown").style.width = document.getElementById("btn-login").offsetWidth + "px";
+

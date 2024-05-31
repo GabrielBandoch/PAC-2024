@@ -1,6 +1,6 @@
 import express from 'express'
-import connect from '../config/db.js';
-import multer from 'multer'
+import connect from '../config/db.js'
+import multer from 'multer';
 
 const router = express.Router()
 
@@ -83,5 +83,7 @@ router.delete('/deletar-post/:id', async (req, res) => {
     }
 });  
 
-connect();
+
+
+
 export { router };

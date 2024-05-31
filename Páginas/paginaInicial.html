@@ -8,6 +8,7 @@
     <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
     <title>Juracy Maria Brosig</title>
     <link rel="stylesheet" href="../css/import.css">
+    <link rel="stylesheet" href="../css/menudrop.css">
     <!--Google fontes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,51 +19,50 @@
 
     <!--Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </head>
 <body>
-    <div >
-        <ul id="menu-hamburguer" class="hamburguer-menu">
-            <a href="#"><li><p id="itens">NÍVEIS DE ENSINO</p></li></a>
-            <a href="#"><li><p>SOBRE</p></li></a>
-            <a href="#"><li><p>CONTATO</p></li></a>
-        </ul>
-    </div>
-
-
     <header>
-    <nav class="interface flex">
-        <div class="logotipo">
-            <a href="#">
-                <img src="../img/favicon.svg" alt="-">
-                <p>JURACY MARIA BROSIG</p>
-            </a>
-        </div>
-
-        <div class="menu-desktop flex">
-            <ul>
-                <li><a class="item-nav" href="#">Níveis de ensino</a></li>
-                <li><a class="item-nav" href="#">Sobre</a></li>
-                <li><a class="item-nav" href="#">Contato</a></li>
-                <li>
-                    <a href="#">
-                        <button class="btn">
-                            LOGIN
-                            <i class="bi bi-arrow-right"></i>
-                        </button>
-                    </a>
-                </li>
-                <li><i class="bi bi-list hamburguer" onclick="abrirHamburguer()"></i></li>
-            </ul>
-        </div>  
-    </nav>
+        <nav class="interface flex">
+            <div class="logotipo">
+                <a href="/">
+                    <img src="../img/favicon.svg" alt="-">
+                    <p>JURACY MARIA BROSIG</p>
+                </a>
+            </div>
+        
+            <div class="menu-desktop flex">
+                <ul>
+                    <li class="dropdown " id="dropdownMenu">
+                        <a class="item-nav" href="#" onclick="toggleDropdown()">Níveis de ensino</a>
+                        <div class="dropdown-menu" id="dropdownContent" style="display: none; position: absolute;">
+                            <a class="dropdown" href="/fund1">Ensino Fundamental 1</a>
+                            <a class="dropdown" href="/fund2">Ensino Fundamental 2</a>
+                            <a class="dropdown" href="/medio">Ensino Médio</a>
+                        </div>
+                    </li>
+                    <li><a class="item-nav" href="/sobre">Sobre</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=554796297971&text=Ol%C3%A1,%20cheguei%20at%C3%A9%20voc%C3%AA%20atrav%C3%A9s%20do%20site%20do%20Juracy%20e%20estou%20precisando%20de%20assist%C3%AAncia." target="_blank" rel="nofollow">Contato</a></li>
+                    <li>
+                        <a href="/login">
+                            <button class="btn">
+                                LOGIN
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li><i class="bi bi-list hamburguer" onclick="abrirHamburguer()"></i></li>
+                </ul>
+            </div>  
+        </nav>
 
     <div class="hero interface flex">
         <div class="hero-left">
             <p>Por um futuro melhor</p>
             <h1>Excelência em Educação</h1>
             <div class="button-area flex">
-                <button class="btn">Matricular-se</button>
-                <button class="btn">Entre em contato</button>
+                <a href=""><button class="btn">Matricular-se</button></a>
+                <a href="https://api.whatsapp.com/send?phone=554796297971&text=Ol%C3%A1,%20cheguei%20at%C3%A9%20voc%C3%AA%20atrav%C3%A9s%20do%20site%20do%20Juracy%20e%20estou%20precisando%20de%20assist%C3%AAncia."><button class="btn">Entre em contato</button></a>
             </div>
         </div>
         <div class="hero-right">
@@ -72,6 +72,7 @@
     </header>   
 
     <section class="posts-section flex">
+
         <div class="post-container flex interface">
             <h1 class="flex">
                 POSTAGENS
@@ -81,16 +82,16 @@
                 <img src="img/" alt="NOT FOUND">
                 <div class="info-left">
                     <div class="tag">
-                        <p class="tag-value"></p>
+                        <p class="tag-value">#habitos</p>
                     </div>
-                    <div class="post-title-value"></div>
+                    <div class="post-title-value"> Hábitos Saudáveis</div>
                     <div class="post-subtitle-value"></div>
                     <div class="person-info-container">
                         <div class="post-person-info flex">
                             <p>Por</p>
-                            <p class="person-value"></p>
+                            <p class="person-value"> Felipe s.c</p>
                             <i class="bi bi-circle-fill"></i>
-                            <p class="date-value"></p>
+                            <p class="date-value"> 31/05/2024</p>
                             <i class="bi bi-circle-fill"></i>
                             <div class="like-container flex">
                                 <i class="bi bi-hearts"></i>
@@ -106,25 +107,38 @@
                 </div>
                 
             </div>
--->
+        -->
+
             <div class="moldura-post flex">
                 <div class="info-left">
                     <div class="tag">
-                        <p class="tag-value"></p>
+                        <p class="tag-value">#habitos</p>
                     </div>
-                    <div class="post-title-value"></div>
+                    <div class="post-title-value"> <h3>Hábitos Saudáveis</h3></div>
+                    <div class="post-subtitle-value"></div>
                     <div class="person-info-container">
                         <div class="post-person-info flex">
-                            <p class="date-value"></p>
+                            <p>Por</p>
+                            <p class="person-value"> Felipe s.c</p>
+                            <i class="bi bi-circle-fill"></i>
+                            <p class="date-value"> 31/05/2024</p>
+                            <i class="bi bi-circle-fill"></i>
+                            <div class="like-container flex">
+                                <p class="like-value"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="info-right">
-                    <i class="bi bi-share-fill"></i>
-                    <p class="post-extra-text">LEIA MAIS</p>
-                </div>
+                <a href="/ler">
+                    <div class="info-right">
+                        <i class="bi bi-share-fill"></i>
+                        <br>
+                        <p class="post-extra-text"><h4 style="color: #6A954C">LEIA MAIS</h4></p>
+                    </div>
+                </a>
             </div>
 
+        
 
         </div>
     </section>
@@ -192,12 +206,13 @@
                 <p>R. dos Metalúrgicos, 0 - Paranaguamirim, Joinville - SC, 89231-530</p>
             </div>
             <div class="logo-prefeitura">
-                <img src="../img/logo_prefeitura.png" alt="NOT FOUND">
+                <img src="img/logo_prefeitura.png" alt="NOT FOUND">
             </div>
                 
         </div>
     </footer>
 
-    <script src="../FrontJS/FrontInicial.js"></script>
+    <script src="../JavascriptFront/funcoesFrontPagInicial.js"></script>
+    <script src="../JavascriptFront/menudrop.js"></script>
 </body>
 </html>

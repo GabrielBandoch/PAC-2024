@@ -55,32 +55,30 @@ app.js
 
 3. **Configure o Banco de Dados**
 
-   Certifique-se de que você tem o MySQL instalado e rodando em sua máquina. Crie um banco de dados chamado `testeQuill`.
+   Certifique-se de que você tem o MySQL instalado e rodando em sua máquina. Baixe o database.sql na sua máquina. 
+   
+   Mova o database.sql para os arquivos do xampp.
+   use o comando:
+   ```sql
+   CREATE DATABASE database
+   ```
+
+   Use o comando exit.
+
+   E usa o seguinte comando:
 
    ```sql
-   CREATE DATABASE testeQuill;
+   mysql -u root database < database.sql
    ```
 
    Verifique e atualize a string de conexão no arquivo `config/db.js` se necessário:
 
    ```js
-   const connection = await mysql.createConnection("mysql://root:@localhost:3306/testeQuill");
+   const connection = await mysql.createConnection("mysql://root:@localhost:3306/database");
    ```
 
-4. **Crie a Estrutura de Tabelas**
 
-   ```sql
-   CREATE TABLE posts (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       title VARCHAR(255) NOT NULL,
-       content TEXT,
-       imagePath VARCHAR(255),
-       videoPath VARCHAR(255),
-       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-   );
-   ```
-
-5. **Inicialize o Servidor**
+4. **Inicialize o Servidor**
 
    Execute o comando abaixo para iniciar o servidor:
 
@@ -106,10 +104,6 @@ app.js
 
 O Multer é utilizado para upload de arquivos. A configuração está em `routes/routes.js` e `app.js`. Certifique-se de que as pastas `img_bd/` e `uploads/` existem no diretório raiz do projeto ou crie-as manualmente.
 
-## Problemas Comuns e Soluções
+## Alterações Pendentes:
 
-- **Erro de Conexão com o Banco de Dados**
-  - Verifique se o MySQL está rodando e se as credenciais estão corretas em `config/db.js`.
-
-- **Erro ao Salvar Dados**
-  - Certifique-se de que as pastas `img_bd/` e `uploads/` possuem permissões de escrita.
+No frontend, ainda precisamos finalizar o cadastro.html. No backend, estamos trabalhando na implementação do login e aprimorando o editor de publicações.
