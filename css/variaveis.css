@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /*CORES SITE*/
+    --cor_font_padrao: #252525;
+    --cor_buttom: #6A954C;
+    --cor_buttom_hover: #55773d;
+    --cor_fonte_hover: white;
+    --cor_background_nav: #D2EDB7;
+
+    /*FONTES SITE*/
+    --fonte_padrao: "Poppins", sans-serif;;
+
+    /*GAP*/
+    --gap: 2rem;
+}

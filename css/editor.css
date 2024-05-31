@@ -1,0 +1,35 @@
+.custom-padding {
+    margin-bottom: 10px;/* Ajuste o padding conforme necessário */
+}
+
+.quadro {
+    padding: 20px ;
+    width: 100%;
+    text-align: center; 
+    display: flex; /* Ativa o layout flexível */
+    min-height: 600px; /* Altura mínima do contêiner */
+}
+
+.editor {
+    margin: 0 auto;
+    margin-bottom: 170px;
+
+}
+.form-container {
+    margin: 20px;
+}
+.form-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-title label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-title input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
