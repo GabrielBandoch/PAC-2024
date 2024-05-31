@@ -1,0 +1,24 @@
+{
+    "name": "PAC-2024",
+    "version": "1.0.0",
+    "description": "**Alunos (em ordem alfabética):**\r - Eric Gabriel Caetano\r - Felipe da Silva Chawischi\r - Gabriel Felipe Alves Bandoch\r - Gabriel Henrique Ferreira\r - Gustavo Felipe Cachoeira\r - Lucas Grime Ceola",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.20.2",
+      "bootstrap-icons": "^1.11.3",
+      "cors": "^2.8.5",
+      "express": "^4.19.2",
+      "multer": "^1.4.5-lts.1",
+      "mysql2": "^3.9.4",
+      "node.js": "^0.0.1-security",
+      "quill": "^2.0.2",
+      "sequelize": "^6.37.3"
+    }
+  }

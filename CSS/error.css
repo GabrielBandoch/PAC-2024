@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #eff8ed;
+    overflow: hidden;
+}
+
+.left {
+    padding-top: 200px;
+    padding-left: 450px;
+    width: 1200px;
+    color: #4ccb2d;
+}
+
+.left h3 {
+    margin-top: 20px; 
+    font-size: 36px;
+    padding-top: 50px;
+    text-align: left;
+    color: #4ccb2d;
+}
+
+.left p {
+    padding-top: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.btn-container {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 450px;
+    gap: 30px;
+}
+
+.btn, .home-btn {
+    margin: 0 0 5px;
+    text-align: center;
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+    border: #96BB7C solid 3px;
+}
+
+.btn {
+    width: 120px;
+}
+
+.home-btn {
+    width: 180px;
+}
+
+.btn:hover, .home-btn:hover {
+    color: #96BB7C;
+    background-color: #FFFFFF;
+}
+
+.right {
+position: absolute;
+display: flex;
+width: 1200px;
+left: 1100px;
+top: 250px;
+height: 100%;
+font-size: 150px;
+color: #2a2a2a;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #D2EDB7;
+}
+
+.footer-container {
+    display: flex;
+    padding: 2px;
+    color: #000
+}
+
+.footer-container ul {
+    padding-left: 60px;
+    align-items: center;
+    width: 25%;
+}
+
+.bxs-phone {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-210%);
+    left: 50px;
+
+}
+
+.bx-envelope {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-100%);
+    left: 50px;
+
+}
+
+.bxl-instagram {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-95%);
+    left: 50px;
+
+}
+
+.bxl-periscope {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-320%);
+    left: 525px;
+
+}

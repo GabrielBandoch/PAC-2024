@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    padding-left: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 1.2rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #000;
+}
+
+.login-btn {
+    padding: 0.2rem;
+    width: 150px;
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background-color: #96BB7C;
+    color: #FFFFFF;
+    padding: 0.9rem;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: #96BB7C;
+    background-color: #FFFFFF;
+}
+
+main {
+    overflow: hidden;
+}
+
+section {
+    height: 100vh;
+    padding: 8rem;
+}
+
+.left {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.left p {
+    font-size: 1.2rem;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.left h2 {
+    margin-bottom: 20px;
+    padding-right: 15px;
+}
+
+img {
+    position: relative;
+    left: 900px;
+    bottom: 190px;
+    width: 600px;
+}
+
+.card {
+    position: relative;
+    bottom: 120px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: left;
+    color: #000;
+    background-color: #F4F4F4;
+}
+
+.card p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    padding: 15px;
+    justify-content: space-between;
+    color: #000;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #D2EDB7;
+}
+
+.footer-container {
+    display: flex;
+    padding: 2px;
+    color: #000
+}
+
+.footer-container ul {
+    padding-left: 60px;
+    align-items: center;
+    width: 25%;
+}
+
+.bxs-phone {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-210%);
+    left: 50px;
+
+}
+
+.bx-envelope {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-100%);
+    left: 50px;
+
+}
+
+.bxl-instagram {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-95%);
+    left: 50px;
+
+}
+
+.bxl-periscope {
+    position: absolute;
+    font-size: 18px;
+    transform: translateY(-320%);
+    left: 523px;
+
+}

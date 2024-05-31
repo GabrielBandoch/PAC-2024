@@ -1,0 +1,188 @@
+.adm-post-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    background-image: url(../../img/Fundo_adm.jpg);
+    background-size:cover;
+}
+
+.container-adm-post-section{
+    flex-direction: column;
+    gap: 20px;
+
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container-adm-post-section h1{
+    align-self: center;
+    text-align: center;
+
+    width: 50%;
+
+    font-size: 30px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container-adm-post-section button{
+    align-self: flex-end;
+}
+
+.container-adm-post-ef1{
+    flex-direction: column;
+    padding: 1%;
+
+    /* From https://css.glass */
+    background: rgba(3, 199, 160, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(3, 199, 160, 0.3);
+}
+
+.container-adm-post-ef1 .content .tag{
+    transition: all 0.12s;
+
+    width: 10px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight:bold;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(3, 199, 160, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(3, 199, 160, 0.15);
+}
+
+.container-adm-post-ef2{
+    flex-direction: column;
+    padding: 1%;
+
+    /* From https://css.glass */
+    background: rgba(253, 255, 0, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: 1px solid rgba(253, 255, 0, 0.3);
+}
+
+.container-adm-post-ef2 .content .tag{
+    transition: all 0.12s;
+
+    width: 10px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight:bold;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(253, 255, 0, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(253, 255, 0, 0.15);
+}
+
+.container-adm-post-em{
+    flex-direction: column;
+    padding: 1%;
+
+    /* From https://css.glass */
+    background: rgba(255, 45, 0, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: 1px solid rgba(255, 45, 0, 0.3);
+}
+
+.container-adm-post-em .content .tag{
+    transition: all 0.12s;
+
+    width: 10px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight:bold;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(255, 45, 0, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: 1px solid rgba(255, 45, 0, 0.15);
+}
+
+.container-adm-post-no{
+    flex-direction: column;
+    padding: 1%;
+
+    /* From https://css.glass */
+    background: rgba(48, 0, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: 1px solid rgba(48, 0, 255, 0.3);
+}
+
+.container-adm-post-no .content .tag{
+    transition: all 0.12s;
+
+    width: 10px;
+    height: 200px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight:bold;
+    color: white;
+
+    /* From https://css.glass */
+    background: rgba(48, 0, 255, 0.50);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    border: 1px solid rgba(48, 0, 255, 0.15);
+}
+
+.title-dropdown{
+    padding-left: 15px;
+
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.title-dropdown p, .title-dropdown i{
+    transition: all .5s;
+    color: white;
+}
+
+.not-visible{
+    transition: all 0.5;
+    display: none;
+}
