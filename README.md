@@ -41,8 +41,8 @@ app.js
 1. **Clone o Repositório**
    
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/Gabrielbandoch/PAC-2024.git
+   cd PAC-2024
    ```
 
 2. **Instale as Dependências**
@@ -68,8 +68,6 @@ app.js
    ```
 
 4. **Crie a Estrutura de Tabelas**
-
-   Você pode usar o seguinte script SQL para criar a tabela necessária:
 
    ```sql
    CREATE TABLE posts (
