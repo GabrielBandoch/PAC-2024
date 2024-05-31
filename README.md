@@ -1,7 +1,7 @@
 
 # Juracy Maria Brosig - PAC 2024/06
 
-## Autores
+## Alunos
 - Eric Gabriel Caetano
 - Felipe da Silva Chawischi
 - Gabriel Felipe Alves Bandoch
