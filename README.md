@@ -17,17 +17,25 @@ Este projeto é uma aplicação web desenvolvida utilizando Node.js, Express, My
 A estrutura de diretórios do projeto é a seguinte:
 
 ```
-config/
+BackEND/
+congig/
   db.js
-Controller/
+controller/
   controller.js
 css/
-FrontJS/
+  cssPagAdmin/
+    admin.css
+  arquivos.css ...
 img/
-Páginas/
+  arquivos.png ...
+JavascriptFront/
+  arquivos.js ...
+Págiinas/
+  arquivos.html ...
 routes/
-  routes.js
+routes.js
 app.js
+README.md
 ```
 
 ## Configuração do Ambiente
