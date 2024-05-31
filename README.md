@@ -106,4 +106,4 @@ O Multer é utilizado para upload de arquivos. A configuração está em `routes
 
 ## Alterações Pendentes:
 
-No frontend, ainda precisamos finalizar o cadastro.html. No backend, estamos trabalhando na implementação do login e aprimorando o editor de publicações.
+No frontend, ainda precisamos finalizar o cadastro.html e a responsividade das páginas. No backend, estamos trabalhando na implementação do login e aprimorando o editor de publicações.
