@@ -1,5 +1,6 @@
 
 # Juracy Maria Brosig - PAC 2024/06
+Esse projeto foi criado apenas para a organização.
 
 ## Alunos
 - Eric Gabriel Caetano
