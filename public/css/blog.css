@@ -1,0 +1,105 @@
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.create-post-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #D2EDB7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-post-section h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px; /* Espaçamento inferior adicional */
+    width: 100%; /* Garante que o título ocupe toda a largura disponível */
+}
+
+form {
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6A954C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #55773d;
+}
+
+.btn-cancelar {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-cancelar:hover {
+    background-color: #0056b3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}
+
+.btn-voltar {
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    background-color: #96BB7C;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto; /* Movido para a direita */
+}
+
+.btn-voltar:hover {
+    background-color: white;
+}

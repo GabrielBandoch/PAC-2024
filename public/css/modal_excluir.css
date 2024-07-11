@@ -1,0 +1,53 @@
+/* Estilos para o modal */
+.modal {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-buttons {
+    text-align: center;
+}
+
+.modal-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.modal-buttons button#btn-confirmar-exclusao {
+    background-color: #6A954C;
+    color: white;
+}
+
+.modal-buttons button#btn-confirmar-exclusao:hover {
+    background-color: #55773d;
+}
+
+.modal-buttons button#btn-cancelar-exclusao {
+    background-color: #007bff; /* Cor azul para o botão Cancelar */
+    color: white;
+}
+
+.modal-buttons button#btn-cancelar-exclusao:hover {
+    background-color: #0056b3; /* Cor azul escura no hover */
+}

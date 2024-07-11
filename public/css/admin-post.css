@@ -1,0 +1,120 @@
+/* admin-post.css */
+
+.adm-post-section {
+    width: 100%;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px; /* Largura igual à seção de posts */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    padding: 0 20px; /* Ajuste do padding se necessário */
+}
+
+.btn-left {
+    margin-right: auto;
+}
+
+.btn-right {
+    margin-left: auto;
+}
+
+.posts-section {
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.moldura-post-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #6A954C;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-left {
+    flex: 1;
+}
+
+.tag {
+    background-color: #55773d;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.post-title-value {
+    margin-bottom: 10px;
+}
+
+.post-subtitle-value {
+    margin-bottom: 10px;
+}
+
+.person-info-container {
+    color: #55773d;
+    font-size: 14px;
+}
+
+.bi-circle-fill {
+    display: none;
+}
+
+.post-extra-text {
+    color: #6A954C;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.post-extra-text:hover {
+    color: #55773d;
+    text-decoration: underline;
+}
+
+.btns-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn-editar,
+.btn-excluir {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.btn-editar {
+    background-color: #6A954C;
+    color: #ffffff;
+}
+
+.btn-editar:hover {
+    background-color: #55773d;
+}
+
+.btn-excluir {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.btn-excluir:hover {
+    background-color: #cc0000;
+}

@@ -18,23 +18,21 @@ Este projeto é uma aplicação web desenvolvida utilizando Node.js, Express, My
 A estrutura de diretórios do projeto é a seguinte:
 
 ```
-BackEND/
-congig/
+config/
   db.js
-controller/
-  controller.js
-css/
-  cssPagAdmin/
-    admin.css
-  arquivos.css ...
-img/
-  arquivos.png ...
-JavascriptFront/
-  arquivos.js ...
-Págiinas/
-  arquivos.html ...
+public/
+  css/
+    styles.css
+  img/
+    images/
+  js/
+    scripts.js
+views/
+  admin/
+    admin-pages.ejs
+  pages.ejs
 routes/
-routes.js
+  index.js
 app.js
 README.md
 ```
@@ -116,3 +114,35 @@ O Multer é utilizado para upload de arquivos. A configuração está em `routes
 ## Alterações Pendentes:
 
 No frontend, ainda precisamos finalizar o cadastro.html e a responsividade das páginas. No backend, estamos trabalhando na implementação do login e aprimorando o editor de publicações.
+
+## Banco de Dados:
+
+O banco de dados foi estruturado em duas tabelas principais: post e users. Cada uma delas foi projetada para armazenar informações específicas, conforme descrito abaixo:
+
+Tabela post
+A tabela post é responsável por armazenar os artigos ou postagens. A estrutura dessa tabela inclui os seguintes campos:
+
+id_post: Um identificador único para cada post, definido como chave primária e gerado automaticamente.
+
+title: O título da postagem, armazenado como uma string de até 255 caracteres.
+
+tags: Tags associadas à postagem, armazenadas como uma string de até 255 caracteres, permitindo categorização e busca eficiente.
+
+synopsis: Uma sinopse ou resumo do conteúdo do post, armazenado como um campo de texto.
+
+content: O conteúdo completo da postagem, armazenado como um campo de texto.
+
+createdAt: A data e hora de criação do post, definida automaticamente para o momento da inserção.
+Tabela users
+
+A tabela users armazena informações sobre os usuários do sistema. A estrutura dessa tabela inclui os seguintes campos:
+
+id: Um identificador único para cada usuário, definido como chave primária e gerado automaticamente.
+
+username: O nome de usuário, armazenado como uma string de até 100 caracteres.
+
+email: O e-mail do usuário, armazenado como uma string de até 100 caracteres.
+
+idade: A idade do usuário, armazenada como um número inteiro.
+
+pass: A senha do usuário, armazenada como um número inteiro (embora seja uma prática recomendada armazenar senhas de forma segura, como hashes).

@@ -1,0 +1,49 @@
+
+/*
+.sobrx {
+    width: 1200px;
+    margin: auto; /* Isso centraliza horizontalmente *
+    height: auto;
+    padding: 50px 15px 100px;
+}
+.div-relevo {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave *
+}
+*/
+
+.sobrx {
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px; /* Margem superior para manter a distância da div anterior */
+    padding: 50px 15px 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    height: auto;
+
+}
+
+.fund1 {
+    width: 100%;
+    margin: auto;
+    height: 600px; /* Altura específica */
+    overflow: hidden; /* Evita que o conteúdo ultrapasse a altura definida */
+    text-align: center;
+}
+
+.fotoe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+}
+
+ul li {
+    display: block; /* Define os itens da lista para ocupar uma linha inteira */
+}
+
+
+

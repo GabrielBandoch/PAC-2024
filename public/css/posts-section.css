@@ -1,0 +1,75 @@
+.posts-section {
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+.posts-title {
+    text-align: center; 
+    margin-bottom: 10px; 
+    padding: 20px; 
+}
+
+
+.post-container {
+    display: flex;
+    flex-direction: column; 
+}
+
+.moldura-post {
+    display: flex;
+    border: 1px solid #6A954C; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.info-left {
+    flex: 1; 
+}
+
+.info-right {
+    display: flex;
+    align-items: center; 
+}
+
+.tag {
+    background-color: #55773d;
+    padding: 8px 12px; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px; 
+}
+
+.post-title-value {
+    margin-bottom: 10px;
+}
+
+.post-subtitle-value {
+    margin-bottom: 10px;
+}
+
+.person-info-container {
+    color: #55773d;
+}
+
+.bi-circle-fill {
+    display: none;
+}
+
+.post-extra-text {
+    color: #6A954C; 
+    cursor: pointer;
+    font-size: 14px; 
+}
+
+.post-extra-text:hover {
+    color: #55773d;
+    text-decoration: underline; 
+}
+
+.post-date {
+    font-size: 12px; 
+    color: #000; 
+    margin-top: -5px;
+    margin-bottom: 15px; 
+}

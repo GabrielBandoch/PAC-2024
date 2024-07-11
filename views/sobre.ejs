@@ -1,0 +1,129 @@
+<!--- Destinada a Página Inicial --->
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <title>Juracy Maria Brosig</title>
+    <link rel="stylesheet" href="/css/import.css">
+    <link rel="stylesheet" href="/css/sobre.css">
+    <link rel="stylesheet" href="/css/menudrop.css">
+    <!--Google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="interface flex">
+            <div class="logotipo">
+                <a href="/">
+                    <img src="/img/favicon.svg" alt="-">
+                    <p>JURACY MARIA BROSIG</p>
+                </a>
+            </div>
+        
+            <div class="menu-desktop flex">
+                <ul>
+                    <li class="dropdown " id="dropdownMenu">
+                        <a class="item-nav" href="#" onclick="toggleDropdown()">Níveis de ensino</a>
+                        <div class="dropdown-menu" id="dropdownContent" style="display: none; position: absolute;">
+                            <a class="dropdown" href="/fund1">Ensino Fundamental 1</a>
+                            <a class="dropdown" href="/fund2">Ensino Fundamental 2</a>
+                            <a class="dropdown" href="/medio">Ensino Médio</a>
+                        </div>
+                    </li>
+                    <li><a class="item-nav" href="/sobre">Sobre</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=554796297971&text=Ol%C3%A1,%20cheguei%20at%C3%A9%20voc%C3%AA%20atrav%C3%A9s%20do%20site%20do%20Juracy%20e%20estou%20precisando%20de%20assist%C3%AAncia." target="_blank" rel="nofollow">Contato</a></li>
+                    <li>
+                        <a href="/login">
+                            <button class="btn">
+                                LOGIN
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li><i class="bi bi-list hamburguer" onclick="abrirHamburguer()"></i></li>
+                </ul>
+            </div>  
+        </nav>
+
+    </header>   
+    <div class=" sobrx div-relevo">
+        <H3>Sobre a Escola Juracy Maria Brosig</H3><br>
+        <p>Localizada na cidade de [inserir cidade], a Escola Juracy Maria Brosig é uma instituição de ensino que 
+            se destaca pela excelência acadêmica e compromisso com o desenvolvimento integral dos alunos. Fundada em [
+            inserir ano de fundação], a escola tem uma longa história de proporcionar educação de qualidade e promover 
+            valores como respeito, ética e responsabilidade.
+        </p>
+        <br>
+        <h4>Missão e Valores</h4>
+        <p>
+            A missão da Escola Juracy Maria Brosig é oferecer uma educação de excelência que prepare os alunos para os 
+            desafios do mundo moderno, promovendo o desenvolvimento intelectual, social, emocional e físico. A escola 
+            valoriza a aprendizagem significativa, o pensamento crítico e a criatividade, buscando sempre aprimorar suas 
+            práticas pedagógicas para garantir o sucesso de seus estudantes.
+        </p>
+        <br>
+        <h4>Equipe Educacional</h4>
+        <p>
+            A equipe da Escola Juracy Maria Brosig é formada por profissionais qualificados e dedicados, comprometidos 
+            em proporcionar um ambiente de aprendizagem estimulante e seguro. Os professores são capacitados e estão 
+            sempre em busca de inovação e aprimoramento, visando oferecer uma educação de qualidade que atenda às necessidades 
+            individuais de cada aluno.
+        </p>
+        <br>
+        <h4>Conclusão</h4>
+        <p>
+            Com uma proposta educacional sólida, uma equipe dedicada e uma estrutura de qualidade, a Escola Juracy Maria
+             Brosig é uma referência em educação na região, preparando seus alunos para enfrentar os desafios do presente 
+             e do futuro com competência, ética e comprometimento.
+        </p>
+        
+    
+
+
+    </div>
+    
+    <footer>
+        <div class="interface footer flex">
+            <div class="container-contacts flex">
+                <p>CONTATOS</p>
+                <div class="phone flex">
+                    <i class="bi bi-telephone-fill"></i>
+                    (47) 3461-1297
+                </div>
+                <div class="email flex">
+                    <i class="bi bi-envelope-fill"></i>
+                    email@email.com
+                </div>
+                <div class="instagram flex">
+                    <i class="bi bi-instagram"></i>
+                    @instagram
+                </div>
+            </div>
+            <div class="container-location flex">
+                <div class="title-location flex">
+                    <i class="bi bi-pin-map-fill"></i>
+                    Nossa Localização
+                </div>
+                <p>R. dos Metalúrgicos, 0 - Paranaguamirim, Joinville - SC, 89231-530</p>
+            </div>
+            <div class="logo-prefeitura">
+                <img src="/img/logo_prefeitura.png" alt="NOT FOUND">
+            </div>
+                
+        </div>
+    </footer>
+    <script src="/javascript/menudrop.js"></script>
+</body>
+</html>
