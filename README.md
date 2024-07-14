@@ -9,6 +9,9 @@
 - Gustavo Felipe Cachoeira
 - Lucas Grime Ceola
 
+## Demonstração
+
+![Demo GIF](Demonstração/Juracy.gif)
 
 ## Descrição
 Este projeto é uma aplicação web desenvolvida utilizando Node.js, Express, MySQL e outras tecnologias auxiliares. A aplicação permite upload de arquivos, gerenciamento de posts, e serve páginas estáticas. 
