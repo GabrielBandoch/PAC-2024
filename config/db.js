@@ -9,7 +9,7 @@ async function connect() {
         host: 'localhost',
         user: 'root',
         password: '',
-        database: 'pac'
+        database: 'pacf'
     });
 
     console.log('Conectado ao banco de dados');
